@@ -1,6 +1,6 @@
 base_url = "https://rishikeshvk.com/"
 title = "~/rishi"
-description = "Rishikesh V K | Personal Portfolio Website"
+description = "AI engineer. Writing about backend systems, production ML, and lessons from the field."
 author = "Rishikesh V K"
 theme = "tabi"
 generate_feeds = true
