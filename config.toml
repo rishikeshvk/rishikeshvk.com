@@ -150,12 +150,6 @@ iine_unified_languages = true
 # Can be set at section levels, following the hierarchy: section > config. See: https://welpo.github.io/tabi/blog/mastering-tabi-settings/#settings-hierarchy
 post_listing_index_reversed = false  # Defaults to false.
 
-# DEPRECATED!
-# Use Zola's built-in `bottom_footnotes = true` in the [markdown] section instead. (Available since v0.19.0)
-# Adds backlinks to footnotes (loads ~500 bytes of JavaScripts).
-# Can be set at page or section levels, following the hierarchy: page > section > config. See: https://welpo.github.io/tabi/blog/mastering-tabi-settings/#settings-hierarchy
-footnote_backlinks = false
-
 # Enable KaTeX for all posts.
 # Can be set at page or section levels, following the hierarchy: page > section > config. See: https://welpo.github.io/tabi/blog/mastering-tabi-settings/#settings-hierarchy
 katex = false
@@ -195,7 +189,7 @@ quick_navigation_buttons = true
 
 # Date format used when listing posts (main page, /blog section, tag posts list…)
 # Default is "6th July 2049" in English and "%d %B %Y" in other languages.
-# long_date_format = "%d %B %Y"
+# long_date_format = "dd MMMM y"
 
 # Date format used for blog posts.
 # Default is "6th July 2049" in English and "%-d %B %Y" in other languages.
@@ -208,8 +202,8 @@ archive_date_format = ""
 # Per-language date format overrides.
 # Examples: Spanish uses "3 de febrero de 2024", German uses "3. Februar 2024"
 date_formats = [
-    { lang = "es", long = "%d de %B de %Y", short = "%-d %b %Y" },
-    { lang = "de", long = "%d. %B %Y", short = "%d.%m.%Y", archive = "%d. %b" },
+    { lang = "es", long = "dd 'de' MMMM 'de' y", short = "d MMM y" },
+    { lang = "de", long = "dd. MMMM y", short = "dd.MM.y", archive = "dd. MMM" },
 ]
 
 # Custom separator used in title tag and posts metadata (between date, time to read, and tags).
