@@ -2,7 +2,7 @@
 title = "Latest posts"
 
 [extra]
-header = { title = "Hi, I'm Rishi.", img = "img/profile.webp", img_alt = "Rishikesh" }
+header = { title = "Hey, I'm Rishi_", img = "img/profile.webp", img_alt = "Rishikesh" }
 projects_path = "projects/_index.md"
 max_projects = 3
 +++
