@@ -7,7 +7,7 @@ weight = 1
 tags = ["AI", "LLM evals", "Python", "React Native"]
 
 [extra]
-local_image = "projects/smudge/screens.png"
+local_image = "projects/smudge/icon.png"
 social_media_card = "projects/smudge/screens.png"
 mermaid = true
 +++
