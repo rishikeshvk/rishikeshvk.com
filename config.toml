@@ -1,6 +1,6 @@
 base_url = "https://rishikeshvk.com/"
 title = "~/rishi"
-description = "AI engineer. Writing about backend systems, production ML, and lessons from the field."
+description = "Rishikesh V K, product engineer at UST. I like finding out I'm wrong, as long as I'm the one who finds out."
 author = "Rishikesh V K"
 theme = "tabi"
 generate_feeds = true
@@ -78,7 +78,7 @@ skin = "evangelion"
 # These stylesheets should be located in your site's `static` directory.
 # Example: stylesheets = ["extra1.css", "path/extra2.css"]
 # You can load a stylesheet for a single post by adding it to the [extra] section of the post's front matter, following this same format.
-stylesheets = []
+stylesheets = ["css/custom.css"]
 
 # Sets the default canonical URL for all pages.
 # Individual pages can override this in the [extra] section using canonical_url.

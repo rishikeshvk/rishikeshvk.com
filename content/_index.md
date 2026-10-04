@@ -2,11 +2,9 @@
 title = "Latest posts"
 
 [extra]
-header = { title = "I'm Rishi. I make AI work outside of demos.", img = "img/profile.webp", img_alt = "Rishikesh" }
-section_path = "blog/_index.md"
-max_posts = 5
+header = { title = "Hi, I'm Rishi.", img = "img/profile.webp", img_alt = "Rishikesh" }
+projects_path = "projects/_index.md"
+max_projects = 3
 +++
 
-AI engineer working on backend systems and the part of ML that has to actually ship.
-
-This is where I write things down: technical deep-dives, notes from the trenches, and the occasional "why did this even work" post.
+Product engineer at UST, building AI systems. I like finding out I'm wrong, as long as I'm the one who finds out. This is where I write it down.
