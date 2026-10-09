@@ -1,7 +1,7 @@
 +++
 title = "Smudge"
 description = "A study buddy who's on day one too: an AI that learns the same subject as you, and genuinely can't see what's coming next."
-weight = 1
+weight = 2
 
 [taxonomies]
 tags = ["AI", "LLM evals", "Python", "React Native"]
